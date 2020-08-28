@@ -91,7 +91,7 @@ namespace WindowsFormsApp3
             SmtpClient smtp = new SmtpClient();
             smtp.Credentials =
 
-                new System.Net.NetworkCredential("ali_grkn_ky@hotmail.com", "19951995_?");//kullanici adi ve sifre sicili
+                new System.Net.NetworkCredential("ali_grkn_ky@hotmail.com", "sifre");//kullanici adi ve sifre sicili
 
             smtp.Port = 587;
 
